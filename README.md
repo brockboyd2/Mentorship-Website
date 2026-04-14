@@ -1,1 +1,143 @@
 # Mentorship-Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentorship Matters</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: white;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: radial-gradient(circle at top, #1e3a8a, #020617);
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.85);
+      padding: 25px;
+      margin: 30px 0;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      color: #60a5fa;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      border-radius: 20px;
+      margin-top: 50px;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.5);
+    }
+    .cta h2 {
+      font-size: 2.3rem;
+      margin-bottom: 15px;
+    }
+    .steps {
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .steps li {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      background: white;
+      color: #1d4ed8;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Coaching Mentorship Should Be Required</h1>
+  <p>Better Coaches. Safer Athletes. Stronger Programs.</p>
+</header>
+
+<section>
+  <div class="card">
+    <img src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg">
+    <h2>The Problem</h2>
+    <p>Too many coaches are put in charge <span class="highlight">without proper guidance</span>. This leads to poor development, preventable injuries, and inconsistent team culture.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/2834917/pexels-photo-2834917.jpeg">
+    <h2>Why Mentorship Helps</h2>
+    <ul>
+      <li>Experienced coaches guide new coaches</li>
+      <li>Better training decisions and leadership</li>
+      <li>Stronger team culture and accountability</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg">
+    <h2>Impact on Athletes</h2>
+    <p>Athletes don’t just improve on the field—they grow off it too. Strong coaching mentorship builds <span class="highlight">discipline, leadership, accountability, and confidence</span>. Athletes learn how to handle pressure, communicate better, and develop a stronger work ethic that carries into school, relationships, and their future careers.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg">
+    <h2>Why It Should Be Required</h2>
+    <p>Mentorship programs ensure every coach has support. Government funding allows <span class="highlight">equal opportunity for all schools</span>, not just well-funded ones.</p>
+  </div>
+
+  <div class="cta">
+    <h2>Take Action</h2>
+    <p>This change starts with pressure from athletes, schools, and communities.</p>
+
+    <ul class="steps">
+      <li><strong>1. Start a Petition:</strong> Create a petition at your school or online pushing for required mentorship programs.</li>
+      <li><strong>2. Contact Leaders:</strong> Reach out to school administrators and local government officials.</li>
+      <li><strong>3. Push for Funding:</strong> Advocate for <span class="highlight">government subsidies</span> to cover mentorship training and programs.</li>
+      <li><strong>4. Spread Awareness:</strong> Share this issue on social media to build support.</li>
+    </ul>
+
+    <p><span class="highlight">Better coaching starts with action.</span></p>
+    <button>Support the Movement</button>
+  </div>
+</section>
+
+</body>
+</html>
